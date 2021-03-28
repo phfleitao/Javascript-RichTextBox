@@ -1,0 +1,41 @@
+#poorTextBox{
+    width: 300px;
+    padding: 3px;
+    border: 1px #999 solid;
+    border-radius: 5px; 
+}
+
+#ptbMenu{
+    background-color: #dddddd;
+    border: 1px #999 solid;
+    border-radius: 5px 5px 0 0; 
+    margin-bottom: 3px;
+}
+
+#ptbMenu button{
+    height: 24px;
+    width: 24px;
+    background-color: #dddddd;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block; 
+    border: 1px #dddddd solid;
+    padding: 2px;
+    margin: 2px 1px;
+    border-radius: 3px; 
+    transition: all 0.5s; 
+    cursor: pointer;
+}
+
+#ptbMenu button:hover{
+    background-color: #eeeeee;
+}
+
+#ptbContent{
+    min-height: 200px;
+    padding: 5px;
+    border: 1px #dddddd solid;
+    border-radius: 0 0 5px 5px; 
+    overflow: auto;
+}
